@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cory Diamand</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="main-container">
+<h1>Cory Diamand</h1>
+<%= link_to "Blog","/blog"%><%=link_to "Home","/index" %>
+<%= yield %>
+</div><!--main-container -->
+</body>
+</html>

@@ -1,0 +1,8 @@
+<div id="about-me">Hi! Im an NYC based entrepreneur and RoR developer. </div>
+<div id="sidebar">
+	<div id="twitter">Twitter!</div>
+	<div id="linkedin">Linkedin!</div>
+</div>
+<p>Recent</p>
+<div id="recent-date"><%= @recent_blog.created_at.strftime("%d, %b, %Y") %></div>
+<div id="recent-content"><%= @recent_blog.content %></div>

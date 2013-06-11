@@ -1,0 +1,7 @@
+<p>Blog Posts</p>
+
+<% @blog_posts.each do |post| %>
+<div id="recent-date"><%= post.created_at.strftime("%d, %b, %Y") %></div>
+<div id="recent-content"><%= post.content %></div>
+<br>
+<% end %>
