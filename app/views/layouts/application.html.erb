@@ -7,10 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div id="main-container">
-<h1>Cory Diamand</h1>
-<%= link_to "Blog","/blog"%><%=link_to "Home","/index" %>
-<%= yield %>
-</div><!--main-container -->
+	<div id="main-container">
+		<div id="name">
+			<b>Cory Diamand</b>
+		</div>
+		<%= link_to "Blog","/blog"%><%=link_to "Home","/index" %>
+		<%= yield %>
+	</div><!--main-container -->
 </body>
 </html>
