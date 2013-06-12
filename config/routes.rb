@@ -1,8 +1,8 @@
 Mysite::Application.routes.draw do
   get "home/index"
   match"/index" => "home#index"
-  match "/blog" => "blog#index"
-  match "blog/:id" => "blog#entry"
+  #match "/blog" => "blog#index"
+  #match "blog/:id" => "blog#entry"
   root :to => "home#index"
 
   # The priority is based upon order of creation:

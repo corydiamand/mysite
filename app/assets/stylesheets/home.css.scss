@@ -22,13 +22,78 @@ font-weight: bold;
 }
 
 #about-snippet{
-	font: Georgia, 'Times New Roman', Times, serif;
+	margin-top:30px;
 }
 
-#recent-date{
+#reach-out{
+	margin-top:30px;
+	height:30px;
+}
+
+#reach-out-label{
+	float: left;
 	font-size: 18px;
 	font-style: italic;
 	line-height: 22px;
+	}
+
+#icons{
+	float:left;
+	margin-left:30px;
+}
+
+#twitter-icon{
+	float:left;
+	width:32px;
+	height:32px;
+	background:url('/assets/twitter.png');
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+#linkedin-icon{
+	float:left;
+	margin-left:5px;
+	width:32px;
+	height:32px;
+	background:url('/assets/linkedin.png');
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+#github-icon{
+	float:left;
+	margin-left:5px;
+	width:32px;
+	height:32px;
+	background:url('/assets/github.png');
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+#recent-label{
+	float:left;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 22px;
+}
+
+#recent-container-outer{
+	margin-top:30px;
+}
+
+#recent-container-inner{
+	width: 600px;
+	margin-left: 120px;
+}
+
+#recent-title{
+	font-size:20px;
+}
+
+#recent-date{
+	margin: 10px 0 10px 0;
+	font-size: 12px;
 }
 
 #recent-content{

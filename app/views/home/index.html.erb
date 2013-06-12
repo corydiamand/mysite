@@ -1,9 +1,26 @@
-<div id="about-snippet">Hi! Im an NYC based entrepreneur and RoR developer. </div>
-<div id="sidebar">
-	<div id="twitter">Twitter!</div>
-	<div id="linkedin">Linkedin!</div>
+<div id="about-snippet">Hi there! Im an NYC based entrepreneur and RoR developer. I like thinking about tech and hashing out ideas in coffee shops.</div>
+<div id="reach-out">
+	<div id="reach-out-label">
+		Reach Out
+	</div>
+	<div id="icons">
+		<a href="https://twitter.com/corydiamand"><div id="twitter-icon"></div></a>
+		<a href="https://linkedin.com/in/corydiamand"><div id="linkedin-icon"></div></a>
+		<a href="https://github.com/corydiamand"><div id="github-icon"></div></a>
+	</div>
 </div>
-<p>Recent</p>
-<div id="recent-date"><%= @recent_blog.created_at.strftime("%d, %b, %Y") %></div>
-<div id="recent-title"><%= @recent_blog.title %></div>
-<div id="recent-content"><%= @recent_blog.content %></div>
+
+<div id="recent-container-outer">
+	<div id="recent-label">
+		Recent
+	</div>
+	<div id="recent-container-inner">
+		<div id="recent-title">Postpourri</div>
+		<div id="recent-date"><%#= @recent_blog.created_at.strftime("%d, %b, %Y") %></div>
+		<div id="recent-content">For the last few months I've been working alongside the good folks at <a href="http://www.postpourri.com">Relevant Mobile</a> to build a new email marketing product -  <a href="http://www.postpourri.com">Postpourri.</a> 
+		<br></br>
+		Postpourri provides email marketing tools that are an inexpensive and intuitive alternative to the  complex and overpriced solutions that already exist. We provide all the tools needed to craft targeted campaigns. We're also delighted to help out through consultation and the development of personalized email templates. Check us out <a href="http://www.postpourri.com">here!</a>
+
+		</div>
+	</div>
+</div>
