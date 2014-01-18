@@ -3,7 +3,7 @@ development:
   encoding: utf8
   database: mysite_development
   pool: 5
-  username: cory
+  username: corydiamand
   password:
 
 test: &TEST
@@ -11,7 +11,7 @@ test: &TEST
   encoding: utf8
   database: mysite_test
   pool: 5
-  username: cory
+  username: corydiamand
   password:
 
 production:
